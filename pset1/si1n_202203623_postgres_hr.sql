@@ -888,6 +888,18 @@ telefone, data_contratacao, id_cargo, salario,
 comissao, id_supervisor, id_departamento) VALUES
 (206, 'William Gietz', 'WGIETZ', '515.123.8181', '2002-06-07', 'AC_ACCOUNT', 8300, null, 205, 110);
 
+UPDATE hr.departamentos SET id_gerente = 200 WHERE id_departamento = 10;
+UPDATE hr.departamentos SET id_gerente = 201 WHERE id_departamento = 20;
+UPDATE hr.departamentos SET id_gerente = 114 WHERE id_departamento = 30;
+UPDATE hr.departamentos SET id_gerente = 203 WHERE id_departamento = 40;
+UPDATE hr.departamentos SET id_gerente = 121 WHERE id_departamento = 50;
+UPDATE hr.departamentos SET id_gerente = 103 WHERE id_departamento = 60;
+UPDATE hr.departamentos SET id_gerente = 204 WHERE id_departamento = 70;
+UPDATE hr.departamentos SET id_gerente = 145 WHERE id_departamento = 80;
+UPDATE hr.departamentos SET id_gerente = 100 WHERE id_departamento = 90;
+UPDATE hr.departamentos SET id_gerente = 108 WHERE id_departamento = 100;
+UPDATE hr.departamentos SET id_gerente = 205 WHERE id_departamento = 110;
+
 INSERT INTO hr.historico_cargos (id_empregado, data_inicial, data_final, id_cargos, id_departamento) VALUES
 (102, '13-JAN-01','24-JUL-06','IT_PROG','60');
 INSERT INTO hr.historico_cargos (id_empregado, data_inicial, data_final, id_cargos, id_departamento) VALUES
@@ -908,5 +920,3 @@ INSERT INTO hr.historico_cargos (id_empregado, data_inicial, data_final, id_carg
 (176, '01-JAN-07','31-DEC-07','SA_MAN','80');
 INSERT INTO hr.historico_cargos (id_empregado, data_inicial, data_final, id_cargos, id_departamento) VALUES
 (200, '01-JUL-02','31-DEC-06','AC_ACCOUNT','90');
-
-
