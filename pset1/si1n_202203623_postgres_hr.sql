@@ -232,6 +232,13 @@ ON DELETE NO ACTION
 ON UPDATE NO ACTION
 NOT DEFERRABLE;
 
+ALTER TABLE hr.departamentos ADD CONSTRAINT empregados_departamentos_fk
+FOREIGN KEY (id_gerente)
+REFERENCES hr.empregados (id_empregado)
+ON DELETE NO ACTION
+ON UPDATE NO ACTION
+NOT DEFERRABLE;
+
 INSERT INTO hr.regiao (id_regiao, nome) values (1,'Europe');
 INSERT INTO hr.regiao (id_regiao, nome) values (2,'Americas');
 INSERT INTO hr.regiao (id_regiao, nome) values (3,'Asia');
