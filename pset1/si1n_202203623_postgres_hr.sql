@@ -26,9 +26,7 @@ CREATE DATABASE uvv
     LC_CTYPE = 'en_US.UTF-8'
     CONNECTION LIMIT = -1;
 
-\q
-
-\c "dbname=uvv user=felipe password=123"
+\c uvv
   
    	-- SCHEMA: hr
 
