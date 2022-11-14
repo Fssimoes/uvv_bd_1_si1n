@@ -27,7 +27,9 @@ CREATE DATABASE uvv
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
 
-\c uvv
+\q
+
+\c "dbname=uvv user=felipe password=123"
   
    	-- SCHEMA: hr
 
