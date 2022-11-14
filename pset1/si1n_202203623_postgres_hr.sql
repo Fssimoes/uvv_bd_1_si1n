@@ -12,6 +12,8 @@ CREATE ROLE felipe WITH
 
 COMMENT ON ROLE felipe IS 'usuário criado para administração do banco de dados uvv - pset nº 1';
 
+ \c "dbname=postgres user=felipe password=123"
+ 
 -- Database: uvv
 
 DROP DATABASE IF EXISTS uvv;
@@ -24,8 +26,8 @@ CREATE DATABASE uvv
     LC_CTYPE = 'en_US.UTF-8'
     TABLESPACE = pg_default
     CONNECTION LIMIT = -1;
-   
- \c uvv;
+
+\c uvv
   
    	-- SCHEMA: hr
 
