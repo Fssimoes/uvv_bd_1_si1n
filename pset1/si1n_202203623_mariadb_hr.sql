@@ -25,6 +25,8 @@ create database uvv;
 GRANT ALL PRIVILEGES ON * . * TO 'felipesimoes'@'localhost';
 FLUSH PRIVILEGES;
 
+-- código criado com inspiração em https://www.hostinger.com.br/tutoriais/como-criar-usuario-mysql-e-conceder-privilegios
+
 use uvv;
 
 -- criação das tabelas 
