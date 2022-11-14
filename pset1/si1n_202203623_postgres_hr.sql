@@ -405,27 +405,27 @@ INSERT INTO hr.cargos (id_cargo, cargo, salario_minimo, salario_maximo) VALUES
 ('PR_REP', 'Public Relations Representative',4500,10500);
 
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(10, 'Administration',1700,200);
+(10, 'Administration',1700,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(20, 'Marketing',1800,201);
+(20, 'Marketing',1800,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(30, 'Purchasing',1700,114);
+(30, 'Purchasing',1700,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(40, 'Human Resources',2400,203);
+(40, 'Human Resources',2400,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(50, 'Shipping',1500,121);
+(50, 'Shipping',1500,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(60, 'IT',1400,103);
+(60, 'IT',1400,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(70, 'Public Relations',2700,204);
+(70, 'Public Relations',2700,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(80, 'Sales',2500,145);
+(80, 'Sales',2500,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(90, 'Executive',1700,100);
+(90, 'Executive',1700,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(100, 'Finance',1700,108);
+(100, 'Finance',1700,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
-(110, 'Accounting',1700,205);
+(110, 'Accounting',1700,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
 (120, 'Treasury',1700,null);
 INSERT INTO hr.departamentos (id_departamento, nome, id_localizacao, id_gerente) VALUES
