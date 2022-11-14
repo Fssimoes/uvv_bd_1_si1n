@@ -1,5 +1,5 @@
 -- Role: felipe
--- DROP ROLE IF EXISTS felipe;
+DROP ROLE IF EXISTS felipe;
 
 CREATE ROLE felipe WITH
   LOGIN
@@ -14,7 +14,7 @@ COMMENT ON ROLE felipe IS 'usuário criado para administração do banco de dado
 
 -- Database: uvv
 
--- DROP DATABASE IF EXISTS uvv;
+DROP DATABASE IF EXISTS uvv;
 
 CREATE DATABASE uvv
     WITH 
@@ -29,7 +29,7 @@ CREATE DATABASE uvv
   
    	-- SCHEMA: hr
 
--- DROP SCHEMA IF EXISTS hr ;
+DROP SCHEMA IF EXISTS hr ;
 
 CREATE SCHEMA IF NOT EXISTS hr
     AUTHORIZATION felipe;
