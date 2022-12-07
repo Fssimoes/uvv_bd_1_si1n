@@ -94,7 +94,7 @@ COMMENT ON COLUMN public.objetos.descricao IS 'descreve o objeto';
 CREATE TABLE public.trilha_sonora (
                 id_trilha VARCHAR(5) NOT NULL,
                 nome VARCHAR(50) NOT NULL,
-                valencia VARCHAR(10) NOT NULL,
+                valencia VARCHAR(10) NOT NULL CHECK (valencia IN ('positiva','negativa','neutra')),
                 CONSTRAINT som_pk PRIMARY KEY (id_trilha)
 );
 COMMENT ON TABLE public.trilha_sonora IS 'armazena os dados relativos a trilha sonora do jogo';
