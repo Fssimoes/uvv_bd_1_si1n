@@ -119,14 +119,14 @@ COMMENT ON COLUMN missoes.pontuação IS 'pontuação maxima a ser auferida ness
 CREATE TABLE composicoes (
                 id_missao VARCHAR(5) NOT NULL,
                 id_objeto VARCHAR(5) NOT NULL,
-                posição inicial VARCHAR(50) NOT NULL,
+                posicao_inicial VARCHAR(50) NOT NULL,
                 pontos INTEGER NOT NULL,
                 CONSTRAINT comp_pk PRIMARY KEY (id_missao, id_objeto)
 );
 COMMENT ON TABLE composicoes IS 'armazena as combinações de objetos e jogos';
 COMMENT ON COLUMN composicoes.id_missao IS 'chave primária composta da tabela';
 COMMENT ON COLUMN composicoes.id_objeto IS 'chave primária composta da tabela';
-COMMENT ON COLUMN composicoes.posição inicial IS 'posição inicial dos objetos na missão';
+COMMENT ON COLUMN composicoes.posicao_inicial IS 'posição inicial dos objetos na missão';
 COMMENT ON COLUMN composicoes.pontos IS 'pontos destinados às composições';
 
 
