@@ -1,3 +1,4 @@
+--Trabalho Normalização Grupo 8 - Jogo (Joao Marcelo, Joao vitor, Cefas Daniel, Felipe Soares Simões, Victor Sandro Christ Rodrigues)
 
 CREATE TABLE public.cores (
                 hexadecimal VARCHAR(10) NOT NULL,
